@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    font-family: popins, sans-serif;
+}
+header{
+    background: #000;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header img{
+    border-radius: 200px;
+}
+header h1{
+    color: red;
+    padding: 10px;
+}
+header h3{
+    color: rgb(211, 208, 208);
+    padding: 10px;
+}
+header select{
+    color: #590505ab;
+   
+    background: rgb(211, 211, 211);
+    float: left;
+    padding: 10px;
+  
+    border: 0;
+    border-radius: 10px;
+}
+header select:hover{
+    border: 0;
+}
+
+.section1{
+    padding: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+.section1 spam{
+    color: #eee;
+    font: italic;
+}
+.section1 h1{
+    color:#555 ;
+    padding: 10px;
+}
+.section1 p{
+    color: #777;
+}
+.section1 p span{
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
+.form{
+   padding: 50px;
+    background: #fff;
+}
+.form h1{
+    text-align: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+    color: #555;
+}
+.form h1 span{
+    color: #000;
+    font-style: italic;
+}
+
+form{
+    background: #ffffff;
+}
+ .form form .n1{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+
+}
+.form form .n2{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+
+}
+select{
+    padding: 10px;
+    margin: 10px;
+}
+.form form .n3{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+
+}
+.form form .n4{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+
+}
+input{
+    margin: 10px;padding: 10px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+label{
+    padding: 10px;margin: 10px;
+}
+
+button{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    background: red;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3;
+}
+button:hover{
+    transform: scale(1.1);
+    color: #d7cccc;
+    background: rgb(181, 39, 39);
+}
+
+  
+textarea::placeholder{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: red;
+  
+}
+
+input::placeholder{
+    color: red;
+}
+option{
+    color: red;
+}
+
+
+footer{
+    background: #d0cccc;
+    padding: 30px;
+}
+.contact ul{
+    display: flex;
+    list-style: none;
+}
+.contact ul li a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
