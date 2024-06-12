@@ -12,6 +12,13 @@ header{
     align-items: center;
     text-align: center;
 }
+
+input:valid{
+    
+    border: 1px solid green;
+}
+
+
 header img{
     border-radius: 200px;
 }
