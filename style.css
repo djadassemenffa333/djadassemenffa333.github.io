@@ -17,11 +17,11 @@ input:valid{
     
     border: 1px solid green;
 }
-
-
-header img{
-    border-radius: 200px;
+img{
+    width: 100%;
 }
+
+
 header h1{
     color: red;
     padding: 10px;
