@@ -16,18 +16,18 @@ function emailSend(){
   var faitLe = document.getElementById('Fait').value;
 
   var messageBody = 
-                    "Nom: " + Nom + 
-                    "<br/> Prenom: " + Prenom + 
-                   // "<br/> Email: " + Email + 
-                    "<br/> Telephone: " + Telephone + 
+                    "Nom: " + Nom +  
+                    "</br> Prenom: " + Prenom + 
+                    "<br/> Email: " + Email + 
+                    "</br> Telephone: " + Telephone + 
                     "<br/> Whatsapp: " + whatssapp + 
-                    "<br/> Appel: " + Appel + 
+                    "</br> Appel: " + Appel + 
                     "<br/> Date: " + Date + 
-                    "<br/> Sex: " + Sex + 
+                    "</br> Sex: " + Sex + 
                     "<br/> Situation: " + Situation + 
-                    "<br/> Pays: " + Pays + 
+                    "</br> Pays: " + Pays + 
                     "<br/> ville: " + Ville + 
-                    "<br/> Nationalité: " + Nationalité + 
+                    "</br> Nationalité: " + Nationalité + 
                     "<br/> Travail: " + Tavail + 
                     "<br/> Movivation: " + Motivation + 
                     "<br/> Fait: " + faitLe;
